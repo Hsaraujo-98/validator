@@ -13,6 +13,7 @@
 	<groupId>br.com.developer</groupId>
 	<artifactId>validator</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>Password Validator</name>
 	<description>Application to validate password</description>
 
@@ -28,8 +29,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
